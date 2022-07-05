@@ -7,9 +7,9 @@ public class KİLOKONTROL {
         System.out.print("kilonuzuzu giriniz = ");
         double kg= input.nextDouble();
 
-        Scanner input1=new Scanner(System.in);
+
         System.out.print("boyunuzu giriniz = ");
-        int boy1= input1.nextInt();
+        int boy1= input.nextInt();
 
         double kıtleIndeksi1= kg/(boy1*boy1);
         System.out.println("kıtleIndeksi1 = " + kıtleIndeksi1);
